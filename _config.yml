@@ -105,7 +105,7 @@ analytics:
 # Site Author
 author:
   name             : "Den"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/profile-image.jpeg"
   bio              : "FE"
   location         : "Seoul"
   email            :
@@ -121,7 +121,7 @@ author:
       url: "https://github.com/sjuhan123"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/sjuhan123"
+      url: "https://instagram.com/sjuhan_"
 
 # Site Footer
 footer:
@@ -131,7 +131,7 @@ footer:
       url: "https://github.com/sjuhan123"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/sjuhan123"
+      url: "https://instagram.com/sjuhan_"
 
 
 # Reading Files
