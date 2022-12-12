@@ -20,6 +20,11 @@
 }
 
 .archive__item {
+  display: flex;
+  max-width: none;
+  justify-content: space-between;
+  margin: 0 0 1.2rem;
+
   position: relative;
 
   a {
@@ -75,7 +80,7 @@
 
 .archive__item-excerpt {
   margin-top: 0;
-  font-size: $type-size-6;
+  font-size: 0;
 
   & + p {
     text-indent: 0;
@@ -128,7 +133,8 @@
 .list__item {
   .page__meta {
     margin: 0 0 4px;
-    font-size: 0.6em;
+    font-size: 0.8em;
+    padding-top: 0.5em;
   }
 }
 
