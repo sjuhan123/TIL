@@ -520,10 +520,10 @@
   //   border-top-right-radius: $border-radius;
   // }
 
-  // // Scrollspy marks toc items as .active when they are in focus
-  // .active a {
-  //   @include yiq-contrasted($active-color);
-  // }
+  // Scrollspy marks toc items as .active when they are in focus
+  .active a {
+    @include yiq-contrasted($active-color);
+  }
 }
 
 .toc__menu {
