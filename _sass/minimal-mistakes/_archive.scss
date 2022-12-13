@@ -2,6 +2,14 @@
    ARCHIVE
    ========================================================================== */
 
+.list__item {
+  display: flex;
+  max-width: none;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
 .archive {
   margin-top: 3em;
   margin-bottom: 2em;
@@ -20,19 +28,12 @@
 }
 
 .archive__item {
-  display: flex;
-  max-width: none;
-  justify-content: space-between;
-  margin: 0 0 1.2rem;
-  align-items: center;
-
   position: relative;
 
   a {
-    position: relative;
     z-index: 10;
   }
-
+  
   a[rel="permalink"] {
     position: static;
   }
