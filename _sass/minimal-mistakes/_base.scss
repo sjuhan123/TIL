@@ -27,31 +27,35 @@ h3,
 h4,
 h5,
 h6 {
-  margin: 2em 0 0.5em;
+  margin: 1.3em 0 0.5em;
   line-height: 1.2;
   font-family: $header-font-family;
-  font-weight: bold;
 }
 
 h1 {
   margin-top: 0;
   font-size: $h-size-1;
+  font-weight: 900;
 }
 
 h2 {
   font-size: $h-size-3;
+  font-weight: 700;
 }
 
 h3 {
   font-size: $h-size-3;
+  font-weight: 500;
 }
 
 h4 {
   font-size: $h-size-4;
+  font-weight: 300;
 }
 
 h5 {
   font-size: $h-size-5;
+  font-weight: 100;
 }
 
 h6 {
@@ -173,7 +177,7 @@ hr {
 
 ul li,
 ol li {
-  margin-bottom: 0.5em;
+  margin-bottom: 0em;
 }
 
 li ul,
@@ -337,3 +341,9 @@ input[type="submit"],
   -webkit-transition: $global-transition;
   transition: $global-transition;
 }
+
+b {
+  background-color: #d9ff7d;
+  font-weight: normal;
+}
+

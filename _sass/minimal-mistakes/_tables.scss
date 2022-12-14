@@ -3,13 +3,17 @@
    ========================================================================== */
 
 table {
-  display: block;
-  margin-bottom: 1em;
-  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  // display: block;
+  margin-bottom: 1.5em;
+  // width: 100%;
   font-family: $global-font-family;
   font-size: $type-size-6;
   border-collapse: collapse;
   overflow-x: auto;
+  border-radius: 5px;
+  line-height: 1.5em;
 
   & + table {
     margin-top: 1em;
@@ -19,6 +23,11 @@ table {
 thead {
   background-color: $border-color;
   border-bottom: 2px solid mix(#000, $border-color, 25%);
+}
+
+tbody {
+  border-top-left-radius: 10px;
+  background-color: #f1f4f6;
 }
 
 th {
