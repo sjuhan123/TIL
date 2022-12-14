@@ -19,8 +19,7 @@ feature_row_left:
     url: "https://sjuhan123.github.io/TIL/categories/#cs50:~:text=BACK%20TO%20TOP%20%E2%86%91-,2022%2D%ED%9A%8C%EA%B3%A0,-%EC%BD%94%EB%93%9C%EC%8A%A4%EC%BF%BC%EB%93%9C%20%ED%94%84%EB%A6%AC%EC%BD%94%EC%8A%A4%20~%202022"
     btn_class: "btn--primary"
     btn_label: "Read more"
-
-feature_row_left:
+feature_row_left1:
   - image_path: /assets/images/서적공부.jpg
     # alt: "customizable"
     title: "js 참고서 공부"
@@ -30,3 +29,4 @@ feature_row_left:
     btn_label: "Read more"
 ---
 {% include feature_row id="feature_row_left" type="left" %}
+{% include feature_row id="feature_row_left1" type="left" %}
