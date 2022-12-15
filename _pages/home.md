@@ -33,7 +33,7 @@ feature_row_left_algorithm:
     # alt: "customizable"
     title: "Algorithm"
     excerpt: "알고리즘 문제를 풀고 <br>어떤 방식으로 풀었는지 <br>정리 했습니다."
-    url: "https://sjuhan123.github.io/TIL/categories/#cs50:~:text=1-,javascript,-%EC%BD%94%EC%96%B4%20%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8%20%2D%20%EB%8D%B0%EC%9D%B4%ED%84%B0"
+    url: "https://sjuhan123.github.io/TIL/categories/#cs50:~:text=BACK%20TO%20TOP%20%E2%86%91-,Algorithm,-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4%20Lv.0"
     btn_class: "btn--primary"
     btn_label: "Read more"
 ---
