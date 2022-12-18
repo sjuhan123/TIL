@@ -36,7 +36,7 @@ body {
 }
 
 .page {
-  padding-left: 2em;
+  padding-left: 1em;
 
   @include breakpoint($large) {
     float: right;

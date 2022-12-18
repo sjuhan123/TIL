@@ -5,7 +5,7 @@
 .list__item {
   display: flex;
   max-width: none;
-  justify-content: space-between;
+  justify-content: left;
   align-items: center;
   position: relative;
 }
@@ -13,7 +13,7 @@
 .archive {
   margin-top: 3em;
   margin-bottom: 2em;
-  padding-left: 3em;
+  padding-left: 1em;
 
   @include breakpoint($large) {
     float: right;
@@ -52,7 +52,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
@@ -136,9 +136,9 @@
 
 .list__item {
   .page__meta {
-    margin: 0 0 4px;
+    margin: 0 0 0px;
     font-size: 0.8em;
-    padding-top: 0.5em;
+    padding: 0 1rem 0 0;
   }
 }
 

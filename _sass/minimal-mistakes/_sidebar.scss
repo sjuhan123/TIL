@@ -107,8 +107,8 @@
   }
 
   @include breakpoint($x-large) {
-    width: $right-sidebar-width - 100px;
-    margin-right: -1 * $right-sidebar-width;
+    width: $right-sidebar-width-narrow;
+    margin-right: -1 * $right-sidebar-width-narrow;
   }
 }
 
@@ -343,7 +343,7 @@
     top: initial;
     right: initial;
     width: initial;
-    margin-right: initial;
+    margin-right: -200px;
     padding-left: initial;
     z-index: initial;
 

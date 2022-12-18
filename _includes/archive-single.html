@@ -11,6 +11,7 @@
 {% endif %}
 
 <div class="{{ include.type | default: 'list' }}__item">
+  {% include page__meta.html type=include.type %}
   <article class="archive__item" itemscope itemtype="https://schema.org/CreativeWork">
     {% if include.type == "grid" and teaser %}
       <div class="archive__item-teaser">
@@ -23,8 +24,7 @@
       {% else %}
         <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
       {% endif %}
-    </h6>
+    </h6 >
     <!-- {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %} -->
   </article>
-  {% include page__meta.html type=include.type %}
 </div>
