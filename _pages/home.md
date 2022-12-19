@@ -3,7 +3,7 @@ author_profile: true
 sidebar: 
   nav: main
 
-layout: single
+layout: home
 permalink: /
 hidden: true
 # header:
