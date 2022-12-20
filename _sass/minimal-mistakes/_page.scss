@@ -6,16 +6,37 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 3em;
+  padding-left: 1em;
   padding-right: 1em;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
-  max-width: 100%;
+  width: 100%;
+  max-width: 950px;
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
 
   @include breakpoint($x-large) {
-    max-width: $max-width;
+    width: 100%;
+    max-width: 950px;
+  }
+}
+
+#main-page {
+  @include clearfix;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  width: 100%;
+  max-width: 1170px;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+
+  @include breakpoint($x-large) {
+    width: 100%;
+    max-width: 1170px;
   }
 }
 
@@ -36,17 +57,14 @@ body {
 }
 
 .page {
-  padding-left: 2em;
 
   @include breakpoint($large) {
-    float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
+    float: left;
+    width: calc(80%);
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width - 140px;
+    width: calc(80%);
   }
 
   .page__inner-wrap {
@@ -300,6 +318,7 @@ body {
    ========================================================================== */
 
 .page__meta {
+  float: right;
   margin-top: 2em;
   color: $muted-text-color;
   font-family: $sans-serif;

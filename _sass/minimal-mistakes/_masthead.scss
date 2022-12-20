@@ -16,7 +16,8 @@
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
-    max-width: 100%;
+    width: 100%;
+    max-width: 950px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -26,7 +27,47 @@
     font-family: $sans-serif-narrow;
 
     @include breakpoint($x-large) {
-      max-width: $max-width;
+      width: 100%;
+      max-width: 950px;
+    }
+
+    nav {
+      z-index: 10;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+.masthead-page {
+  position: relative;
+  border-bottom: 1px solid $border-color;
+  -webkit-animation: $intro-transition;
+  animation: $intro-transition;
+  -webkit-animation-delay: 0.15s;
+  animation-delay: 0.15s;
+  z-index: 20;
+
+  &__inner-wrap {
+    @include clearfix;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    width: 100%;
+    max-width: 1170px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    font-family: $sans-serif-narrow;
+
+    @include breakpoint($x-large) {
+      width: 100%;
+      max-width: 1170px;
     }
 
     nav {

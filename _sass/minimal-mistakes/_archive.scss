@@ -5,7 +5,6 @@
 .list__item {
   display: flex;
   max-width: none;
-  justify-content: space-between;
   align-items: center;
   position: relative;
 }
@@ -13,22 +12,23 @@
 .archive {
   margin-top: 3em;
   margin-bottom: 2em;
-  padding-left: 3em;
+  
 
   @include breakpoint($large) {
     float: right;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow - 150px;
+    width: calc(100%);
+    max-width: 950px;
   }
 
   @include breakpoint($x-large) {
-    width: calc(100% - #{$right-sidebar-width});
-    padding-right: $right-sidebar-width - 250px;
+    width: calc(100%);
+    max-width: 950px;
   }
 }
 
 .archive__item {
   position: relative;
+  padding-left: 2rem;
 
   a {
     z-index: 10;
@@ -52,7 +52,7 @@
 }
 
 .archive__item-title {
-  margin-bottom: 0.25em;
+  margin-bottom: 0em;
   font-family: $sans-serif-narrow;
   line-height: initial;
   overflow: hidden;
@@ -82,7 +82,7 @@
 }
 
 .archive__item-excerpt {
-  margin-top: 0;
+  margin-top: 1em;
   font-size: 0.9em;
   line-height: 1.3em;
 
@@ -136,9 +136,9 @@
 
 .list__item {
   .page__meta {
-    margin: 0 0 4px;
+    margin: 0 0 0;
     font-size: 0.8em;
-    padding-top: 0.5em;
+    padding-top: 0em;
   }
 }
 
@@ -437,7 +437,7 @@
   .feature__wrapper {
     .archive__item-title {
       margin-top: 0.25em;
-      font-size: 1em;
+      font-size: $h-size-1;
     }
   }
 
@@ -445,7 +445,7 @@
   .feature__item--left,
   .feature__item--center,
   .feature__item--right {
-    font-size: 1em;
+    font-size: 0.8em;
   }
 }
 

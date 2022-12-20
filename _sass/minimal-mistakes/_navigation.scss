@@ -129,7 +129,7 @@
     text-align: center;
     text-decoration: none;
     color: $muted-text-color;
-    border: 1px solid mix(#000, $border-color, 25%);
+    // border: 1px solid mix(#000, $border-color, 25%);
     border-radius: $border-radius;
 
     &:hover {
@@ -161,7 +161,7 @@
 .page__comments + .pagination {
   margin-top: 2em;
   padding-top: 2em;
-  border-top: 1px solid $border-color;
+  border-top: 5px solid $border-color;
 }
 
 /*
@@ -188,7 +188,7 @@
     transition: none;
 
     &:hover {
-      color: $masthead-link-color-hover;
+      color: #05c084;
     }
 
     &.site-logo {
@@ -243,7 +243,7 @@
         left: 0;
         bottom: 0;
         height: 4px;
-        background: $primary-color;
+        background: #05c084;
         width: 100%;
         -webkit-transition: $global-transition;
         transition: $global-transition;

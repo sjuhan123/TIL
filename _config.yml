@@ -199,9 +199,9 @@ sass:
 
 
 # Outputting
-# permalink: /:categories/:title/
-# paginate: 5 # amount of posts to show
-# paginate_path: /page:num/
+permalink: /:categories/:title/
+paginate: 5 # amount of posts to show
+paginate_path: /page:num/
 timezone: Asia/Seoul
 
 
