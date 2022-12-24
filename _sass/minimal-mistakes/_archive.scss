@@ -3,14 +3,15 @@
    ========================================================================== */
 
 .list__item {
-  display: flex;
+  display: -webkit-box;
   max-width: none;
   align-items: center;
   position: relative;
+  margin-bottom: 0.5rem;
 }
 
 .archive {
-  margin-top: 3em;
+  // margin-top: 3em;
   margin-bottom: 2em;
   
 
@@ -26,9 +27,15 @@
   }
 }
 
+.archive-top {
+  margin: 3rem 0;
+  display: flex;
+  justify-content: center;
+}
+
 .archive__item {
   position: relative;
-  padding-left: 2rem;
+  // padding-left: 2rem;
 
   a {
     z-index: 10;
@@ -83,8 +90,9 @@
 
 .archive__item-excerpt {
   margin-top: 1em;
-  font-size: 0.9em;
-  line-height: 1.3em;
+  font-size: 0.85em;
+  line-height: 1.6em;
+  height: 6rem;
 
   & + p {
     text-indent: 0;
@@ -137,8 +145,9 @@
 .list__item {
   .page__meta {
     margin: 0 0 0;
-    font-size: 0.8em;
+    font-size: 0.65rem;
     padding-top: 0em;
+    flex: 20%;
   }
 }
 

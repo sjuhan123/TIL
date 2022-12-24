@@ -19,6 +19,19 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
+
+      <div class="archive-top">
+        <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+          <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+        </a>
+        <a href="mailto:{{ author.email }}" rel="me" class="u-email">
+          <meta itemprop="email" content="{{ author.email }}" />
+          <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+        </a>
+        <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
+          <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span>
+        </a>
+      </div>
       <h1 id="page-title" class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {{ content }}

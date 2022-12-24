@@ -24,9 +24,14 @@
             <a href="{{ post.url | relative_url }}" rel="permalink">{{ title }}</a>
             {% endif %}
           </h2>
-          {% if post.excerpt %}<div class="archive__item-excerpt" itemprop="description articleBody">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</div>{% endif %}
+          {% if post.excerpt %}<div class="archive__item-excerpt" itemprop="description articleBody">{{ post.excerpt | markdownify | strip_html | truncate: 250}}</div>{% endif %}
           <p href="{{ post.url | relative_url }}" class="btn {{ f.btn_class }}">Read more</p>
-          {% include page__meta.html type=include.type %}
+          <div class = "archive-home-button">
+            {% if site.category_archive.type and post.categories[0] and site.tag_archive.type and post.tags[0] %}
+              {%- include post__taxonomy.html -%}
+            {% endif %}
+            {% include page__meta.html type=include.type %}
+          </div>
       <!-- </article> -->
         </div>
     </div>
