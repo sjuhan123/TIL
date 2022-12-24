@@ -4,11 +4,11 @@
 #   nav: main
 
 layout: home
-permalink: /home/
+permalink: /
 hidden: true
-# header:
-#   overlay_color: "#5e616c"
-#   overlay_image: /assets/images/mm-home-page-feature.jpg
+header:
+  overlay_color: "#5e616c"
+  overlay_image: /assets/images/mm-home-page-feature.jpg
 
 # excerpt:
 # feature_row_left_retrospect:

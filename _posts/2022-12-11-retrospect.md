@@ -9,6 +9,7 @@ toc_label: " "
 toc_icon: " " 
 header:
   teaser: /assets/images/회고.png
+excerpt_separator: <!--more-->
 ---
 
 ## **코드스쿼드 프리코스 때의 감정**
@@ -72,3 +73,5 @@ header:
 
 
 +) 스터디 진행과 주도를 해준 jace, ethan, 나니, dy 그리고 프리코스를 함께한 모든 분들께(특히 마제님) 감사의 말씀 드립니다.
+
+<!--more-->
