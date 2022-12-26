@@ -330,14 +330,14 @@
       margin-bottom: 2em;
     }
 
-    a.btn::before {
-      content: '';
-      position: absolute;
-      left: 0;
-      top: 0;
-      right: 0;
-      bottom: 0;
-    }
+    // a.btn::before {
+    //   content: '';
+    //   position: absolute;
+    //   left: 0;
+    //   top: 0;
+    //   right: 0;
+    //   bottom: 0;
+    // }
 
     @include breakpoint($small) {
       .archive__item-teaser {
@@ -350,6 +350,7 @@
         padding-left: gutter(0.5 of 12);
         padding-right: gutter(1 of 12);
         width: span(7 of 12);
+        height: 13rem;
       }
     }
   }

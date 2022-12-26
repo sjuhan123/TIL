@@ -6,7 +6,7 @@
    Default button
    ========================================================================== */
 
-.btn {
+.btn:not(.a) {
   /* default */
   font-family: $sans-serif;
   font-size: 0.65em;
