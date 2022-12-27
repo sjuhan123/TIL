@@ -19,24 +19,24 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-    <div class="archive-top">
-        <li class="masthead__menu-item">
-          <a id="toggle-theme"></a>
-        </li>
+    <div class="home-darktheme">
+      <a id="toggle-theme"></a>
+    </div>
+      <div class="archive-top">
         <div class="home-tag">
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label"></span>
           </a>
         </div>
         <div class="home-tag">
           <a href="mailto:{{ author.email }}" rel="me" class="u-email">
             <meta itemprop="email" content="{{ author.email }}" />
-            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</span>
+            <i class="fas fa-fw fa-envelope-square" aria-hidden="true"></i><span class="label">{{ site.data.ui-text[site.locale].email_label }}</span>
           </a>
         </div>
         <div class="home-tag">
           <a href="https://instagram.com/{{ author.instagram }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
-            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label">Instagram</span>
+            <i class="fab fa-fw fa-instagram" aria-hidden="true"></i><span class="label"></span>
           </a>
         </div>
       </div>

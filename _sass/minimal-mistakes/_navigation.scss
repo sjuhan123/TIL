@@ -245,8 +245,8 @@
         height: 4px;
         background: #05c084;
         width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
+        -webkit-transition: 0.2s;
+        transition: 0.2s;
         -webkit-transform: scaleX(0) translate3d(0, 0, 0);
         transform: scaleX(0) translate3d(0, 0, 0); // hide
       }
@@ -624,8 +624,8 @@
       height: 4px;
       background: #05c084;
       width: 100%;
-      -webkit-transition: $global-transition;
-      transition: $global-transition;
+      -webkit-transition: 0.2s;
+      transition: 0.2s;
       -webkit-transform: scaleX(0) translate3d(0, 0, 0);
       transform: scaleX(0) translate3d(0, 0, 0); // hide
     }
