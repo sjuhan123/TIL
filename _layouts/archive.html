@@ -19,8 +19,10 @@ layout: default
 
   <div class="archive">
     {% unless page.header.overlay_color or page.header.overlay_image %}
-
-      <div class="archive-top">
+    <div class="archive-top">
+        <li class="masthead__menu-item">
+          <a id="toggle-theme"></a>
+        </li>
         <div class="home-tag">
           <a href="https://github.com/{{ author.github }}" itemprop="sameAs" rel="nofollow noopener noreferrer me">
             <i class="fab fa-fw fa-github" aria-hidden="true"></i><span class="label">GitHub</span>

@@ -34,12 +34,12 @@ body { margin: 0; }
 
 ::-moz-selection {
   color: #fff;
-  background: #000;
+  background: $background-color;
 }
 
 ::selection {
   color: #fff;
-  background: #000;
+  background: $background-color;
 }
 
 /* Display HTML5 elements in IE6-9 and FF3 */
@@ -187,7 +187,7 @@ textarea {
 }
 
 a, a:link, a:visited, a:focus, a:hover, a:active{
-  color:black;
+  color: $link-color;
   text-decoration:none;
   cursor: pointer;
 }
