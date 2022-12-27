@@ -25,19 +25,19 @@
   .icon + .hidden {
     margin-left: -0.5em; /* override for hidden text*/
   }
-
+}
   /* button colors */
-  $buttoncolors:
-  (primary, $primary-color),
-  (inverse, #fff),
-  (light-outline, transparent),
-  (success, $success-color),
-  (warning, $warning-color),
-  (danger, $danger-color),
-  (info, $info-color),
-  (facebook, $facebook-color),
-  (twitter, $twitter-color),
-  (linkedin, $linkedin-color);
+  // $buttoncolors:
+  // (primary, $primary-color),
+  // (inverse, #fff),
+  // (light-outline, transparent),
+  // (success, $success-color),
+  // (warning, $warning-color),
+  // (danger, $danger-color),
+  // (info, $info-color),
+  // (facebook, $facebook-color),
+  // (twitter, $twitter-color),
+  // (linkedin, $linkedin-color);
 
   // @each $buttoncolor, $color in $buttoncolors {
   //   &--#{$buttoncolor} {
@@ -60,39 +60,39 @@
   // }
 
   /* fills width of parent container */
-  &--block {
-    display: block;
-    width: 100%;
+//   &--block {
+//     display: block;
+//     width: 100%;
 
-    + .btn--block {
-      margin-top: 0.25em;
-    }
-  }
+//     + .btn--block {
+//       margin-top: 0.25em;
+//     }
+//   }
 
-  /* disabled */
-  &--disabled {
-    pointer-events: none;
-    cursor: not-allowed;
-    filter: alpha(opacity=65);
-    box-shadow: none;
-    opacity: 0.65;
-  }
+//   /* disabled */
+//   &--disabled {
+//     pointer-events: none;
+//     cursor: not-allowed;
+//     filter: alpha(opacity=65);
+//     box-shadow: none;
+//     opacity: 0.65;
+//   }
 
-  /* extra large button */
-  &--x-large {
-    font-size: $type-size-4;
-  }
+//   /* extra large button */
+//   &--x-large {
+//     font-size: $type-size-4;
+//   }
 
-  /* large button */
-  &--large {
-    font-size: $type-size-5;
-  }
+//   /* large button */
+//   &--large {
+//     font-size: $type-size-5;
+//   }
 
-  /* small button */
-  &--small {
-    font-size: $type-size-7;
-  }
-}
+//   /* small button */
+//   &--small {
+//     font-size: $type-size-7;
+//   }
+// }
 
 .page__taxonomy-item-category:not(.a) {
   color: #31bf40;
