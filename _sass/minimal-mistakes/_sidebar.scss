@@ -20,8 +20,8 @@
     float: left;
     width: calc(#{$right-sidebar-width-narrow} - 1em);
     opacity: 1;
-    -webkit-transition: opacity 0.2s ease-in-out;
-    transition: opacity 0.2s ease-in-out;
+    // -webkit-transition: opacity 0.2s ease-in-out;
+    // transition: opacity 0.2s ease-in-out;
 
     &:hover {
       opacity: 1;
@@ -45,10 +45,10 @@
     margin-bottom: 1em;
     position: relative;
     border-right: 1px solid $border-color;
-    -webkit-animation: $intro-transition;
-    animation: $intro-transition;
-    -webkit-animation-delay: 0.15s;
-    animation-delay: 0.15s;
+    // -webkit-animation: $intro-transition;
+    // animation: $intro-transition;
+    // -webkit-animation-delay: 0.15s;
+    // animation-delay: 0.15s;
     z-index: 20;
   }
 

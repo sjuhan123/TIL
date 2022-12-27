@@ -212,8 +212,8 @@ figure {
   img {
     width: 100%;
     border-radius: $border-radius;
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
+    // -webkit-transition: $global-transition;
+    // transition: $global-transition;
   }
 
   > a {
@@ -256,8 +256,8 @@ figcaption {
   font-size: $type-size-6;
 
   a {
-    -webkit-transition: $global-transition;
-    transition: $global-transition;
+    // -webkit-transition: $global-transition;
+    // transition: $global-transition;
 
     &:hover {
       color: $link-color-hover;
@@ -318,31 +318,31 @@ nav {
    Global animation transition
    ========================================================================== */
 
-b,
-i,
-strong,
-em,
-blockquote,
-p,
-q,
-span,
-figure,
-img,
-h1,
-h2,
-header,
-input,
-a,
-tr,
-td,
-form button,
-input[type="submit"],
-.btn,
-.highlight,
-.archive__item-teaser {
-  -webkit-transition: $global-transition;
-  transition: $global-transition;
-}
+// b,
+// i,
+// strong,
+// em,
+// blockquote,
+// p,
+// q,
+// span,
+// figure,
+// img,
+// h1,
+// h2,
+// header,
+// input,
+// a,
+// tr,
+// td,
+// form button,
+// input[type="submit"],
+// .btn,
+// .highlight,
+// .archive__item-teaser {
+//   -webkit-transition: $global-transition;
+//   transition: $global-transition;
+// }
 
 b {
   background-color: #d9ff7d;
