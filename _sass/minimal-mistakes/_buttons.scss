@@ -39,25 +39,25 @@
   (twitter, $twitter-color),
   (linkedin, $linkedin-color);
 
-  @each $buttoncolor, $color in $buttoncolors {
-    &--#{$buttoncolor} {
-      @include yiq-contrasted($color);
-      @if ($buttoncolor == inverse) {
-        border: 1px solid $border-color;
-      }
-      @if ($buttoncolor == light-outline) {
-        border: 1px solid #fff;
-      }
+  // @each $buttoncolor, $color in $buttoncolors {
+  //   &--#{$buttoncolor} {
+  //     @include yiq-contrasted($color);
+  //     @if ($buttoncolor == inverse) {
+  //       border: 1px solid $border-color;
+  //     }
+  //     @if ($buttoncolor == light-outline) {
+  //       border: 1px solid #fff;
+  //     }
 
-      &:visited {
-        @include yiq-contrasted($color);
-      }
+  //     &:visited {
+  //       @include yiq-contrasted($color);
+  //     }
 
-      &:hover {
-        @include yiq-contrasted(mix(#000, $color, 20%));
-      }
-    }
-  }
+  //     &:hover {
+  //       @include yiq-contrasted(mix(#000, $color, 20%));
+  //     }
+  //   }
+  // }
 
   /* fills width of parent container */
   &--block {
