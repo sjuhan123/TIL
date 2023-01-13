@@ -25,7 +25,7 @@ excerpt_separator: <!--more-->
 3. 격일로 html / css 공부하기 -> **FAIL**
 4. 알고리즘 스터디 문제 전부 풀기 -> **3/5 성공**
 
-![1월 1주차](/assets/images/1월1주차.png)
+![1월 1주차](https://github.com/sjuhan123/TIL/blob/master/assets/images/1%EC%9B%941%EC%A3%BC%EC%B0%A8.png?raw=true)
 
 정말 정신없는 한 주가 지나갔다. 비전공자 출신으로, 한 번도 접해보지 못한 CS를 학습했는데.. 어느정도 예상을 했었지만, 생각했던 것 이상으로 어려웠고 따라가기 벅찼다. 문제를 마주칠 때 마다 당황스럽고 힘들 때도 있었지만, 해결했을 때의 그 짜릿함이 피로를 어느정도 회복해주는 것 같기도 하다.
   
@@ -35,7 +35,7 @@ excerpt_separator: <!--more-->
 - 오전 10시 시작 전에 코어 자바스크립트 복습 혹은 알고리즘 스터디 문제 풀기
 - 주말 학습 계획은 큰 틀 만 정하고 금요일에 결정
 
-![1월 2주차 목표](/assets/images/1월2주차목표.png)
+![1월 2주차 목표](https://github.com/sjuhan123/TIL/blob/master/assets/images/1%EC%9B%942%EC%A3%BC%EC%B0%A8%EB%AA%A9%ED%91%9C.png?raw=true)
 
 
 
