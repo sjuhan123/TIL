@@ -49,7 +49,7 @@ excerpt_separator: <!--more-->
 - 알고리즘 스터디: 격주 수요일(자료구조) / 매주 일요일(알고리즘)
 - 코어 자바스크립트 스터디: 일요일
 
-![1월 2주차]()
+![1월 2주차](https://github.com/sjuhan123/TIL/blob/master/assets/images/1%EC%9B%94%202%EC%A3%BC%EC%B0%A8.png?raw=true)
 
 ### 구현 미션
 
