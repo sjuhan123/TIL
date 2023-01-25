@@ -75,7 +75,7 @@ excerpt_separator: <!--more-->
 
 *2022-01-16 ~ 2022-01-22*
 
-![1월 3주차]()
+![1월 3주차](https://github.com/sjuhan123/TIL/blob/master/assets/images/1%EC%9B%94%203%EC%A3%BC%EC%B0%A8.png?raw=true)
 
 ### 잘한점
 
