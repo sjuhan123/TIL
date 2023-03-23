@@ -34,7 +34,7 @@ h6 {
 
 h1 {
   margin-top: 0;
-  font-size: 2rem;
+  font-size: $h-size-1;
   font-weight: 900;
 }
 
@@ -137,7 +137,7 @@ a {
   }
 
   &:visited {
-    color: $link-color-visited;
+    color: $xing-color;
   }
 
   &:hover {
