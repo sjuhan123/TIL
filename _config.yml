@@ -279,3 +279,4 @@ date_format: "%Y-%m-%d"
 
 after_footer_scripts:
   - /assets/js/custom/dark_theme.js
+github: [metadata]
