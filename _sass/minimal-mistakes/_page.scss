@@ -132,10 +132,11 @@ body {
 			opacity: 1;
 		}
 
-    a:visited {
-      color: $xing-color;
-    }
 	}
+
+  .page__content a {
+    color: $xing-color;
+  }
 
   h3, h4, h5, h6 {
     // border-left: 0.15em solid #05c084;
