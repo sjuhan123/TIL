@@ -131,6 +131,10 @@ body {
 		&:hover .header-link {
 			opacity: 1;
 		}
+
+    a:visited {
+      color: $xing-color;
+    }
 	}
 
   h3, h4, h5, h6 {
@@ -641,3 +645,5 @@ body {
 .utterances {
   max-width: 100% !important;
 }
+
+
