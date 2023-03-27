@@ -134,10 +134,6 @@ body {
 
 	}
 
-  .page__content a {
-    color: $xing-color;
-  }
-
   h3, h4, h5, h6 {
     // border-left: 0.15em solid #05c084;
     // padding-left: 20px;
@@ -647,4 +643,6 @@ body {
   max-width: 100% !important;
 }
 
-
+.page__content a {
+  color: $xing-color;
+}
